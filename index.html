@@ -6,17 +6,18 @@
 	<title>Museum of Antiquities</title>
 	<link href="css/main.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
-<header>
+<header id="top">
+ 
+ 	<img src="images/logo.svg" alt="Logo">
 	<h1>Museum of Antiquities</h1>
-</header>
 
 	</nav>
 		<section>
-			<img src="">
 			<ol>
 				<li><a href="seven-wonders.html">Seven wonders</a></li> 
 				<li><a href="buy-tickets.html">Buy tickets</a></li> 
@@ -25,10 +26,10 @@
 			</ol>
 		</section>
 	</nav>
-
-
+</header>
 
 <main>
+	<img src="images/maerton.jpg" alt="Maerton">
 	<h2>The Seven Wonders of the Ancient World</h2>
 		<p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
 
@@ -36,6 +37,7 @@
 	<h2>The Seven Wonders</h2>
 
 		<dl>
+			<img src="images/giza.png" alt="Pyramid of Giza">
 			<h3>Great Pyramid of Giza</h3>
 				<dt>Date of construction:</dt> 
 				<dd>2584–2561 BC</dd>
@@ -45,8 +47,14 @@
 		
 				<dt>Location:</dt> 
 				<dd>Giza Necropolis, Egypt</dd>
-			[ Learn more about Giza ]
 
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giz">
+					<div>[ Learn more about Giza ]</div>
+				</a>
+			</div>		
+
+			<img src="images/babylon-garden.jpg" alt="Babylonian Hanging Garden">
 			<h3>Hanging Gardens of Babylon</h3>
 				<dt>Date of construction:</dt> 
 				<dd>Circa 600 BC</dd>
@@ -56,8 +64,14 @@
 				
 				<dt>Location:</dt> 
 				<dd>Nineveh, Iraq</dd>
-			[ Learn more about the Hanging Gardens ]
+
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon">
+					<div>[ Learn more about the Hanging Gardens ]</div>
+				</a>
+			</div>		
 		
+			<img src="images/temple-artemis.jpg" alt="Babylonian Temple of Artemis">
 			<h3>Temple of Artemis</h3>
 				<dt>Date of construction:</dt> 
 				<dd>Circa 550 BC
@@ -67,8 +81,15 @@
 				
 				<dt>Location:</dt> 
 				<dd>Selçuk, Turkey</dd>
-			[ Learn more about the Temple ]
 
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Temple_of_Artemis">
+					<div>[ Learn more about the Temple ]</div>
+				</a>
+			</div>		
+			
+
+			<img src="images/zeus.jpg" alt="Statue of Zeus">
 			<h3>Statue of Zeus at Olympia</h3>
 				<dt>Date of construction:</dt> 
 				<dd>435 BC</dd>
@@ -78,8 +99,15 @@
 		
 				<dt>Location:</dt> 
 				<dd>Olympia, Greece</dd>
-			[ Learn more about the Statue ]
 
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia">
+					<div>[ Learn more about the Statue ]</div>
+				</a>
+			</div>		
+			
+
+			<img src="images/mausoleum-harni.jpg" alt="Mausoleum of Halicarnassus">
 			<h3>Mausoleum at Halicarnassus</h3>
 				<dt>Date of construction:</dt> 
 				<dd>351 BC</dd>
@@ -89,8 +117,14 @@
 
 				<dt>Location:</dt> 
 				<dd>Bodrum, Turkey</dd>
-			[Learn more about the Mausoleum ]
 
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus">
+					<div>[ Learn more about the Mausoleum ]</div>
+				</a>
+			</div>	
+
+			<<img src="images/colossus-rhodes.jpg" alt="Colossus of Rhodes">
 			<h3>Colossus of Rhodes</h3>
 				<dt>Date of construction:</dt> 
 				<dd>292–280 BC</dd>
@@ -100,8 +134,14 @@
 
 				<dt>Location:</dt> 
 				<dd>Rhodes, Greece</dd>
-			[ Learn more about Colossus ]
 
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes">
+					<div>[ Learn more about Colossus ]</div>
+				</a>
+			</div>	
+
+			<img src="images/pharos.jpg" alt="Lighthouse of Alexandria">
 			<h3>Lighthouse of Alexandria</h3>
 				<dt>Date of construction:</dt> 
 				<dd>Circa 280 BC</dd>
@@ -111,31 +151,48 @@
 
 				<dt>Location:</dt> 
 				<dd>Alexandria, Egypt</dd>
-			[ Learn more about the Lighthouse ]
+
+			<div class="learn">	
+				<a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria">
+					<div>[ Learn more about the Lighthouse ]</div>
+				</a>
+			</div>
+				
 		</dl>
 
-	<h2>Buy tickets</h2>
+	<h2 id="tickets">Buy tickets</h2>
 
-	<p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+			<p>Come explore the ancient wonders with our amazing teleportation technology 
+			that jumps you around the world.</p>
 
-	[ $15 for adults ]
-	[ $5 for kids ]
+			<div class="price">
+				<a href="#">
+					<div>[ $15 for adults ]</div>
+				</a>
+			</div>
+
+			<div>
+				<a href="#">
+					<div>[ $5 for kids ]</div>
+				</a>
+			</div>
+
 
 	<h2>Become a member</h2>
 
-	<p>Is one visit not enough?
+		<p>Is one visit not enough?
 	Join our yearly program for unlimited access.</p>
 
-	[ $99 for adults ]
-	[ $39 for kids ]
+		[ $99 for adults ]
+		[ $39 for kids ]
 
 
 	<h2>Now playing on the large screen</h2>
 
-	Atlantis: Why we’re so mysterious
-	From allegory to fiction to mystery
+		Atlantis: Why we’re so mysterious
+		From allegory to fiction to mystery
 
-	[ See show times ]
+		[ See show times ]
 
 
 
@@ -185,10 +242,10 @@
 			</ul>
 		</li>
 	</ol>
-
-	Friday
-	Atlantis city tours
-	Awesome art: witness a full mosaic floor under construction
+	<ol>
+		<h3>Friday</h3>
+			<ul>Atlantis city tours
+			Awesome art: witness a full mosaic floor under construction
 			</ul>
 		</li>
 	</ol>

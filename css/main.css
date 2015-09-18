@@ -1,0 +1,21 @@
+/* Colour palette:;
+Bleck: #000000;
+that sexy ultraviolet: #B808FF
+
+
+*/
+
+html{
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+}
+header{
+	position: relative;
+	text-align: center;
+	padding-top: 1em;
