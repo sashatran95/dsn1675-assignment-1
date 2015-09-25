@@ -106,4 +106,7 @@ h2 + p{
 		content: " (" attr(href) ")";
 		color: #999;
 	}
+	thing {
+		page-break-before: always;
+	}
 }

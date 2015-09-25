@@ -10,7 +10,7 @@ navy blue: #4B7F90;
 
 html{
 	box-sizing: border-box;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Exo', sans-serif;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
