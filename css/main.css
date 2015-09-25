@@ -3,8 +3,9 @@ Bleck: #000000;
 that sexy ultraviolet: #B808FF
 that cute pink: #E1B8B6;
 that delicious light purple: #AAA4B1;
-
-
+that sexy honey yellow:#FADE9D
+icy blue: #C6E8E8;
+navy blue: #4B7F90;
 */
 
 html{
@@ -23,10 +24,14 @@ header{
 	text-align: center;
 	padding-top: 1em;
 }
+.7wonders {
 
-img {
+
+}
+
+.7wonders img {
 	width: 100%;
-  	margin: 1rem;
+  	margin: 2rem;
   	text-align: center;
 }
 figure {
@@ -43,6 +48,11 @@ h1 {
   	clear: both;
   	text-align: center;
 }
+.centerh2{
+	text-align: center;
+	font-size: 25px;
+	font-weight: regular;
+}
 .banner {
   	margin: 0 0 1.5rem;
   	padding: 0;
@@ -51,14 +61,25 @@ h1 {
 
 .banner figcaption {
     bottom: 10px;
-    padding: 4.75rem 0px;
   	position: absolute;
   	width: 100%;
 
   	color: #fff;
-  	font-size: 1rem;
   	text-align: center;
   	text-shadow: 0 2px 3px rgba(0,0,0,0.8);
+}
+.banner strong{
+
+  	font-size: 2rem;
+}
+.banner p{
+ 	text-align: center;
+}
+.banner img {
+	width: 100%;
+  	margin: 0;
+  	text-align: center;
+  	opacity: 12%;
 
 }
 .logo {
@@ -82,42 +103,61 @@ h1 {
 .nav li {
 	display: block;
 	list-style-type: none;
-	padding: 1rem;
 }
 .nav a {
 	display: block;
-
+	padding: 1rem;
 	color: #fff;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: regular;
 	text-decoration: none;
 }
 
 .nav a:hover {
 	background-color: #AAA4B1;
+}
+.learn {
+	display: block;
+
+	color: #fff;
+	font-size: 1rem;
+	font-weight: regular;
+	text-decoration: none;
+}
+
+.learn:hover {
+	background-color: #AAA4B1;
+	padding: 1rem;	
 
 }
+.tickets {
+	background-color: #4B7F90;
+	padding: 1rem;
+}
+.tickets p{
+	text-align: center;
+}
 .price nav {
-	text-align: middle;
+	text-align: center;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-
-	background-color: #B808FF;
+	
 }
 
 .price nav li {
   	display: inline-block;
   	margin-bottom: 0.3em;
 	list-style-type: none;
-
+}
+.price ul{
+	padding: 0;
 }
 .price nav a {
   	display: inline-block;
 
   	padding: 1em 3.5em 1em;
 
-  	background-color: #B808FF;
   	border-radius: 4px;
 
   	color: #fff;
@@ -127,7 +167,15 @@ h1 {
 .price nav a:hover {
   	background-color: #AAA4B1;
   	color: #fff;
+}
+.adult {
+	background-color: #B808FF;
+	margin: 0 1em;
 
+}
+.kids{
+	background-color: #B808FF;
+	margin: 0 1em;
 }
 .footer {
   	padding: 1rem 1rem;
@@ -139,7 +187,14 @@ h1 {
   	font-size: 0.8rem;
   	text-align: left;
 }
+.dayscoloured {
+	background-color: #C6E8E8;
+	padding: 1rem;
+}
+.days li{
+	list-style-type: none;
 
+}
 .footer li{
 	list-style-type: none;
 	text-align: left;
