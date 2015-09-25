@@ -1,6 +1,8 @@
 /* Colour palette:;
 Bleck: #000000;
 that sexy ultraviolet: #B808FF
+that cute pink: #E1B8B6;
+that delicious light purple: #AAA4B1;
 
 
 */
@@ -23,10 +25,14 @@ header{
 }
 
 img {
-	display: block;
 	width: 100%;
+  	margin: 1rem;
+  	text-align: center;
 }
-
+figure {
+  	margin: 1rem;
+  	padding: 10px;
+ }
 .masthead {
 	
 	/*color: #512200;*/
@@ -37,14 +43,23 @@ h1 {
   	clear: both;
   	text-align: center;
 }
-.banner{
-	background: url("../images/maerton.jpg") left top repeat;
-	padding: 5em 0 8em;
-	margin: 0;
-	position: relative;
-	width: 100% 0 auto;
-	display: block;
-	background-repeat: no-repeat;
+.banner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+
+.banner figcaption {
+    bottom: 10px;
+    padding: 4.75rem 0px;
+  	position: absolute;
+  	width: 100%;
+
+  	color: #fff;
+  	font-size: 1rem;
+  	text-align: center;
+  	text-shadow: 0 2px 3px rgba(0,0,0,0.8);
+
 }
 .logo {
 	margin: 0;
@@ -79,20 +94,56 @@ h1 {
 }
 
 .nav a:hover {
-	background-color: rgba(81,34,0,0.5);
+	background-color: #AAA4B1;
+
+}
+.price nav {
+	text-align: middle;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	background-color: #B808FF;
 }
 
+.price nav li {
+  	display: inline-block;
+  	margin-bottom: 0.3em;
+	list-style-type: none;
+
+}
+.price nav a {
+  	display: inline-block;
+
+  	padding: 1em 3.5em 1em;
+
+  	background-color: #B808FF;
+  	border-radius: 4px;
+
+  	color: #fff;
+  	text-decoration: none;
+}
+
+.price nav a:hover {
+  	background-color: #AAA4B1;
+  	color: #fff;
+
+}
 .footer {
-  padding: 1rem 1rem;
+  	padding: 1rem 1rem;
+  	margin: 0;
 
-  background-color: #B808FF;
+  	background-color: #B808FF;
 
-  color: white;
-  font-size: 0.8rem;
-  text-align: center;
+  	color: white;
+  	font-size: 0.8rem;
+  	text-align: left;
 }
 
 .footer li{
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
+}
+.footer nav ul{
+	list-style-type: none; /*how do you make this line not underlined*/
 }
