@@ -1,0 +1,66 @@
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;	
+	-webkit-text-size-adjust: 100%;	
+	text-size-adjust: 100%;
+
+}		
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+@media only screen and (min-width: 240px) {
+	h1 {
+		font-size: 28px;
+	}
+	nav {
+		text-align: center;
+	}
+
+	.nav li {
+		float: left;
+		width: 25%;
+	}
+}
+@media only screen and (min-width: 680px) {
+	h1 {
+		font-size: 30px;
+	}
+	nav {
+		text-align: center;
+	}
+
+	.nav li {
+		float: left;
+		width: 50%;
+	}
+/*
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 460px) {
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+}
+
+@media only screen and (min-width: 320px) {
+
+}
+
+
+*/

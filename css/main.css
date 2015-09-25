@@ -14,8 +14,85 @@ html{
 }
 body{
 	margin: 0;
+
 }
 header{
 	position: relative;
 	text-align: center;
 	padding-top: 1em;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.masthead {
+	
+	/*color: #512200;*/
+	text-align: center;
+}
+h1 {
+  	margin: 0 0 0.7rem;
+  	clear: both;
+  	text-align: center;
+}
+.banner{
+	background: url("../images/maerton.jpg") left top repeat;
+	padding: 5em 0 8em;
+	margin: 0;
+	position: relative;
+	width: 100% 0 auto;
+	display: block;
+	background-repeat: no-repeat;
+}
+.logo {
+	margin: 0;
+	padding: 0.2em 0 0.3em;
+
+	background-image: url("../images/logo.svg"), url("../images/logo.svg");
+	background-repeat: no-repeat;
+	background-size: 32px auto;
+	background-position: 15px center, calc(100% - 15px) center;
+}
+.nav {
+	text-align: middle;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	background-color: #B808FF;
+}
+
+.nav li {
+	display: block;
+	list-style-type: none;
+	padding: 1rem;
+}
+.nav a {
+	display: block;
+
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: regular;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: rgba(81,34,0,0.5);
+}
+
+.footer {
+  padding: 1rem 1rem;
+
+  background-color: #B808FF;
+
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.footer li{
+	list-style-type: none;
+	text-align: center;
+}
