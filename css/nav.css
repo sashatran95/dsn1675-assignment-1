@@ -64,3 +64,46 @@ body {
 
 
 */
+
+/*Large Screen*/
+
+
+/*Style all the small screen stuff here*/
+}
+
+
+h2 + p{
+	font-size: 1.2rem;
+}
+
+/*.wrapper{
+	max-width: 40em;
+	margin: 0 auto;*/
+
+}
+@media only screen and (min-width: 38em){
+
+	html{
+		font-size: 110%;
+		line-height: 1.4;
+	}
+}
+
+@media only screen and (min-width: 60em){
+
+	html{
+		font-size: 120%;
+		line-height: 1.5;
+	}
+}
+
+@media print {
+	nav{
+		display: none;
+
+	}
+	main a::after {
+		content: " (" attr(href) ")";
+		color: #999;
+	}
+}
