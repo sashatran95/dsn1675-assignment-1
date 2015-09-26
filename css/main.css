@@ -79,7 +79,6 @@ h1 {
 	width: 100%;
   	margin: 0;
   	text-align: center;
-  	opacity: 12%;
 
 }
 .logo {
@@ -136,6 +135,7 @@ h1 {
 }
 .tickets p{
 	text-align: center;
+	font-size: 15px;r
 }
 .price nav {
 	text-align: center;
@@ -144,11 +144,16 @@ h1 {
 	padding: 0;
 	
 }
+.tickets h2{
+	font-weight: bold;
+	font-size: 22px;
 
+}
 .price nav li {
   	display: inline-block;
   	margin-bottom: 0.3em;
 	list-style-type: none;
+	font-size: 15px;
 }
 .price ul{
 	padding: 0;
@@ -198,6 +203,7 @@ h1 {
 .footer li{
 	list-style-type: none;
 	text-align: left;
+	padding: 0;
 }
 .footer nav ul{
 	list-style-type: none; /*how do you make this line not underlined*/
